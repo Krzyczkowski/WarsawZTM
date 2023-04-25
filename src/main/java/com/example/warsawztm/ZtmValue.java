@@ -1,4 +1,4 @@
-package com.example.warsawztmclient;
+package com.example.warsawztm;
 
 public class ZtmValue {
     private String value;

@@ -1,4 +1,4 @@
-package com.example.warsawztmclient;
+package com.example.warsawztm;
 
 import java.util.List;
 
