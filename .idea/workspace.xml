@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259976ac-0025-45b2-80f2-0ec9405792e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/WarsawDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/staticDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/DisplayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/DisplayDTO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/DisplayDTOArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/warsawztmclient/WarsawZtmClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/WarsawZtmClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/warsawztmclient/ZtmObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/ZtmObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/warsawztmclient/ZtmValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/ZtmValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/warsawztmclient/WarsawZtmClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/warsawztm/WarsawZtmClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztmclient/WarsawZtmClientApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztmclient/ZtmObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztmclient/ZtmValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztmclient/staticDataLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztmclient/staticDataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/WarsawZtmClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/warsawztm/WarsawZtmClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/warsawztm/WarsawZtmClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/warsawztm/WarsawZtmClientApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +41,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/WarsawZTM-Client/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/WarsawZTM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a568a62ee1450296dcd0d33be731a116&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "E:/WarsawZTM-Client/src/test/java",
+    "last_opened_file_path": "E:/projektZespolowy/Miniaturowa_tablica_informacji_pasazerskiej/Miniaturowa_tablica_informacji_pasazerskiej/server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "a568a62ee1450296dcd0d33be731a116",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WarsawZTM-Client\src\main\resources\static" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.warsawztmclient" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.warsawztm" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +96,11 @@
       <workItem from="1682275370192" duration="102000" />
       <workItem from="1682275488566" duration="9000" />
       <workItem from="1682316229719" duration="7786000" />
-      <workItem from="1682406113985" duration="7044000" />
+      <workItem from="1682406113985" duration="7523000" />
+      <workItem from="1682579050918" duration="1017000" />
+      <workItem from="1682583714435" duration="12306000" />
+      <workItem from="1682702661334" duration="14000" />
+      <workItem from="1682702702657" duration="3879000" />
     </task>
     <servers />
   </component>
